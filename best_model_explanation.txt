@@ -1,0 +1,37 @@
+BEST HYPERTENSION PREDICTION MODEL
+=================================================================
+
+Selected Algorithm: Gradient Boosting
+
+REASONS FOR SELECTION
+
+1. Gradient Boosting achieved the highest five-fold cross-validation ROC-AUC of 0.922.
+
+2. It ranked above XGBoost, which achieved a cross-validation ROC-AUC of 0.920.
+
+3. Its cross-validation ROC-AUC was above the average performance of the five algorithms.
+
+4. Its held-out test accuracy was 84.1%.
+
+5. It achieved a sensitivity of 83.5%, identifying this proportion of actual hypertensive cases in the test dataset.
+
+6. Its specificity was 84.8%, indicating how well it identified non-hypertensive cases.
+
+7. Its F1-score was 0.845, summarising the balance between precision and sensitivity.
+
+
+PERFORMANCE RESULTS
+Cross-validation ROC-AUC: 0.9220
+Cross-validation Recall: 0.8789
+Test Accuracy: 0.8413
+Test Precision: 0.8557
+Test Sensitivity: 0.8350
+Test Specificity: 0.8482
+Test F1 Score: 0.8452
+Test ROC-AUC: 0.9144
+
+CONFUSION MATRIX
+True Negatives: 162
+False Positives: 29
+False Negatives: 34
+True Positives: 172
